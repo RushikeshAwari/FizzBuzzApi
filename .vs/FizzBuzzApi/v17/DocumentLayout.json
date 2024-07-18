@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\services\\fizzbuzzservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\services\\fizzbuzzservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\services\\ifizzbuzzservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\services\\ifizzbuzzservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\model\\fizzbuzzvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\model\\fizzbuzzvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\model\\fizzbuzzresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\model\\fizzbuzzresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\controllers\\fizzbuzzcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\controllers\\fizzbuzzcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Program.cs",
+              "RelativeDocumentMoniker": "FizzBuzzApi\\Program.cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Program.cs",
+              "RelativeToolTip": "FizzBuzzApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:21:24.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFizzBuzzService.cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\IFizzBuzzService.cs",
+              "RelativeDocumentMoniker": "FizzBuzzApi\\Services\\IFizzBuzzService.cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\IFizzBuzzService.cs",
+              "RelativeToolTip": "FizzBuzzApi\\Services\\IFizzBuzzService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:20:37.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FizzBuzzService.cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\FizzBuzzService.cs",
+              "RelativeDocumentMoniker": "FizzBuzzApi\\Services\\FizzBuzzService.cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\FizzBuzzService.cs",
+              "RelativeToolTip": "FizzBuzzApi\\Services\\FizzBuzzService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:20:16.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FizzBuzzValues.cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Model\\FizzBuzzValues.cs",
+              "RelativeDocumentMoniker": "FizzBuzzApi\\Model\\FizzBuzzValues.cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Model\\FizzBuzzValues.cs",
+              "RelativeToolTip": "FizzBuzzApi\\Model\\FizzBuzzValues.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:19:56.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FizzBuzzResult.cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Model\\FizzBuzzResult.cs",
+              "RelativeDocumentMoniker": "FizzBuzzApi\\Model\\FizzBuzzResult.cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Model\\FizzBuzzResult.cs",
+              "RelativeToolTip": "FizzBuzzApi\\Model\\FizzBuzzResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:19:01.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FizzBuzzController .cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Controllers\\FizzBuzzController .cs",
+              "RelativeDocumentMoniker": "FizzBuzzApi\\Controllers\\FizzBuzzController .cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Controllers\\FizzBuzzController .cs",
+              "RelativeToolTip": "FizzBuzzApi\\Controllers\\FizzBuzzController .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:18:21.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

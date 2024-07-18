@@ -1,0 +1,6 @@
+@FizzBuzzApi_HostAddress = http://localhost:5188
+
+GET {{FizzBuzzApi_HostAddress}}/FizzBuzz/
+Accept: application/json
+
+###
