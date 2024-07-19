@@ -2,11 +2,9 @@
 using Moq;
 using FizzBuzzApi.Services;
 using FizzBuzzApi.Services.Division;
-using FizzBuzzApi.Model;
-using System.Collections.Generic;
 using NUnit.Framework.Legacy;
 
-namespace FizzBuzzApi.Tests
+namespace FizzBuzzApiTest
 {
     [TestFixture]
     public class FizzBuzzServiceTests
