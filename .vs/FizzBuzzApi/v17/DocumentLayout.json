@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A46DC8F0-54DF-47AF-AD72-3EDA6427AE34}|FizzBuzzApiTest\\FizzBuzzApiTest.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapitest\\fizzbuzzservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46DC8F0-54DF-47AF-AD72-3EDA6427AE34}|FizzBuzzApiTest\\FizzBuzzApiTest.csproj|solutionrelative:fizzbuzzapitest\\fizzbuzzservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|c:\\users\\rutvi\\source\\repos\\rushikeshawari\\fizzbuzzapi\\fizzbuzzapi\\services\\division\\divisionservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5D8E77-9D25-4DAF-AD0E-71CEE035AD6D}|FizzBuzzApi\\FizzBuzzApi.csproj|solutionrelative:fizzbuzzapi\\services\\division\\divisionservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "FizzBuzzServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApiTest\\FizzBuzzServiceTests.cs",
+              "RelativeDocumentMoniker": "FizzBuzzApiTest\\FizzBuzzServiceTests.cs",
+              "ToolTip": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApiTest\\FizzBuzzServiceTests.cs",
+              "RelativeToolTip": "FizzBuzzApiTest\\FizzBuzzServiceTests.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwGMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T16:58:16.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "FizzBuzzApi.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\obj\\Debug\\net8.0\\FizzBuzzApi.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\obj\\Debug\\net8.0\\FizzBuzzApi.AssemblyInfo.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DivisionService .cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\Division\\DivisionService .cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Services\\Division\\DivisionService .cs",
@@ -80,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FizzBuzzService.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\FizzBuzzService.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Services\\FizzBuzzService.cs",
@@ -93,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Program.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Program.cs",
@@ -106,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IDivisionService.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\Division\\IDivisionService.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Services\\Division\\IDivisionService.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IFizzBuzzService.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Services\\IFizzBuzzService.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Services\\IFizzBuzzService.cs",
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FizzBuzzValues.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Model\\FizzBuzzValues.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Model\\FizzBuzzValues.cs",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "FizzBuzzResult.cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Model\\FizzBuzzResult.cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Model\\FizzBuzzResult.cs",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FizzBuzzController .cs",
               "DocumentMoniker": "C:\\Users\\RUTVI\\Source\\Repos\\RushikeshAwari\\FizzBuzzApi\\FizzBuzzApi\\Controllers\\FizzBuzzController .cs",
               "RelativeDocumentMoniker": "FizzBuzzApi\\Controllers\\FizzBuzzController .cs",
