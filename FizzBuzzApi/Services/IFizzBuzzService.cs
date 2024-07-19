@@ -3,7 +3,7 @@ namespace FizzBuzzApi.Services
 {
     public interface IFizzBuzzService
     {
-        FizzBuzzResult ProcessValues(int[] values);
+        FizzBuzzResult ProcessValues(string[] values);
     }
 }
 

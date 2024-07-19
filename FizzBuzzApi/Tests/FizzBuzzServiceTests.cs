@@ -18,7 +18,7 @@ namespace FizzBuzzApi.Tests
         [Test]
         public void ProcessValues_MultipleOfThree_ReturnsFizz()
         {
-            var request = new FizzBuzzValues { Values = new[] { 3, 6, 9 } };
+            var request = new FizzBuzzValues { Values = new[] { "3", "6", "9" } };
             var result = _service.ProcessValues(request.Values);
 
             Assert.Equals("Fizz", result.Results[0]);
@@ -29,7 +29,7 @@ namespace FizzBuzzApi.Tests
         [Test]
         public void ProcessValues_MultipleOfFive_ReturnsBuzz()
         {
-            var request = new FizzBuzzValues { Values = new[] { 5, 10, 20 } };
+            var request = new FizzBuzzValues { Values = new[] { "5", "10", "20" } };
             var result = _service.ProcessValues(request.Values);
 
             Assert.Equals("Buzz", result.Results[0]);
@@ -40,7 +40,7 @@ namespace FizzBuzzApi.Tests
         [Test]
         public void ProcessValues_MultipleOfThreeAndFive_ReturnsFizzBuzz()
         {
-            var request = new FizzBuzzValues { Values = new[] { 15, 30, 45 } };
+            var request = new FizzBuzzValues { Values = new[] { "15","30", "45" } };
             var result = _service.ProcessValues(request.Values);
 
             Assert.Equals("FizzBuzz", result.Results[0]);
@@ -51,7 +51,7 @@ namespace FizzBuzzApi.Tests
         [Test]
         public void ProcessValues_NotMultipleOfThreeOrFive_ReturnsNumber()
         {
-            var request = new FizzBuzzValues { Values = new[] { 1, 2, 4 } };
+            var request = new FizzBuzzValues { Values = new[] { "1", "2", "4" } };
             var result = _service.ProcessValues(request.Values);
 
             Assert.Equals("1", result.Results[0]);

@@ -1,43 +1,56 @@
 ﻿using FizzBuzzApi.Model;
+using System.Text.Json;
 namespace FizzBuzzApi.Services
 {
     public class FizzBuzzService : IFizzBuzzService
     {
-        public FizzBuzzResult ProcessValues(int[] values)
+        public FizzBuzzResult ProcessValues(string[] values)
         {
             var results = new List<string>();
-
-            foreach (var value in values)
+            try
             {
-                try
+                if (values == null || values.Length == 0)
                 {
-                    if (value % 3 == 0 && value % 5 == 0)
-                    {
-                        results.Add($"{value} = FizzBuzz");
-                    }
-                    else if (value % 3 == 0)
-                    {
-                        results.Add($"{value} = Fizz");
-                    }
-                    else if (value % 5 == 0)
-                    {
-                        results.Add($"{value} = Buzz");
-                    }
-                    else if (value % 3 != 0 || value % 5 != 0)
-                    {
-                        results.Add($"{value} = Divided {value} by 5 Divided {value} by 3 ");
-                    }
-                    else
-                    {
-                        results.Add(value.ToString());
-                    }
+                    results.Add("Input values not provided");
                 }
-                catch (Exception ex)
+                else
                 {
-                    results.Add("Invalid Item");
+                    foreach (string value in values)
+                    {
+                        if (string.IsNullOrEmpty(value))
+                        {
+                            results.Add($"{value} = Invalid Item");
+                        }
+                        if (int.TryParse(value, out int Number))
+                        {
+                            if (Number % 3 == 0 && Number % 5 == 0)
+                            {
+                                results.Add($"{value} = FizzBuzz");
+                            }
+                            else if (Number % 3 == 0)
+                            {
+                                results.Add($"{value} = Fizz");
+                            }
+                            else if (Number % 5 == 0)
+                            {
+                                results.Add($"{value} = Buzz");
+                            }
+                            else if (Number % 3 != 0 || Number % 5 != 0)
+                            {
+                                results.Add($"{value} = Divided {value} by 5 Divided {value} by 3 ");
+                            }
+                        }
+                        else
+                        {
+                            results.Add($"{value} = Invalid Item");
+                        }
+                    }
                 }
             }
-
+            catch (Exception ex)
+            {
+                results.Add("Invalid Item");
+            }
             return new FizzBuzzResult
             {
                 Results = results,
