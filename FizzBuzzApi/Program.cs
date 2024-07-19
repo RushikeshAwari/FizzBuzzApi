@@ -1,4 +1,5 @@
 using FizzBuzzApi.Services;
+using FizzBuzzApi.Services.Division;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IFizzBuzzService, FizzBuzzService>();
+builder.Services.AddSingleton<IDivisionService, DivisionService>();
 
 var app = builder.Build();
 

@@ -1,9 +1,18 @@
 ﻿using FizzBuzzApi.Model;
-using System.Text.Json;
+using FizzBuzzApi.Services.Division;
+using System.Collections.Generic;
+
 namespace FizzBuzzApi.Services
 {
     public class FizzBuzzService : IFizzBuzzService
     {
+        private readonly IDivisionService _divisionService;
+        
+        public FizzBuzzService(IDivisionService divisionService)
+        {
+            _divisionService = divisionService;
+        }
+
         public FizzBuzzResult ProcessValues(string[] values)
         {
             var results = new List<string>();
@@ -21,24 +30,10 @@ namespace FizzBuzzApi.Services
                         {
                             results.Add($"{value} = Invalid Item");
                         }
-                        if (int.TryParse(value, out int Number))
+                        if (int.TryParse(value, out int number))
                         {
-                            if (Number % 3 == 0 && Number % 5 == 0)
-                            {
-                                results.Add($"{value} = FizzBuzz");
-                            }
-                            else if (Number % 3 == 0)
-                            {
-                                results.Add($"{value} = Fizz");
-                            }
-                            else if (Number % 5 == 0)
-                            {
-                                results.Add($"{value} = Buzz");
-                            }
-                            else if (Number % 3 != 0 || Number % 5 != 0)
-                            {
-                                results.Add($"{value} = Divided {value} by 5 Divided {value} by 3 ");
-                            }
+                            var result = _divisionService.GetDivisionResult(number);
+                            results.Add($"{value} = {result}");
                         }
                         else
                         {
@@ -47,7 +42,7 @@ namespace FizzBuzzApi.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 results.Add("Invalid Item");
             }
